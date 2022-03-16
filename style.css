@@ -1,12 +1,16 @@
 *:root{
-    --blue-card-color: #0E38B5;
-    --black-card-color: #140F0F;
-    --lightgreen-color: #1ABC9C;
-    --lightblue-card-color: #1C83C1;
-    --turquose-card-color: #1EA4B6;
-    --blue-card-color: #2C3E50;
-    --nav-color: #3A546D;
-    --rose-card--color: #BA4B63;
-    --sand-card-color: #CCB2A3;
-
+    --primary-color: #1ABC9C;
+    --secondary-color: #3A546D;
+}
+header{
+    background-color: var(--secondary-color);
+}
+.jumbo_header{
+    background-color: var(--primary-color);
+}
+hr{
+    width: 10%;
+    height: 3px;
+    color: white;
+    opacity: unset;
 }
