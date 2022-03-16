@@ -1,14 +1,16 @@
 *:root{
     --primary-color: #1ABC9C;
-    --secondary-color: #3A546D;
+    --blue-background-color: #3A546D;
+    --secondary_color:#2C3E50;
+
 }
 header{
-    background-color: var(--secondary-color);
+    background-color: var(--secondary_color)
 }
 .jumbo_header{
     background-color: var(--primary-color);
 }
-hr{
+.my_hr{
     width: 10%;
     height: 3px;
     color: white;
@@ -17,6 +19,18 @@ hr{
 .about_section{
     background-color: var(--primary-color);
 }
-footer{
-    background-color: var(--secondary-color);
+.footer_top{
+    background-color: var(--blue-background-color);
+}
+.footer_bottom{
+    background-color: var(--secondary_color);
+}
+.send_btn{
+    background-color: var(--primary-color);
+}
+.brand_btn{
+    width: 1.6rem;
+}
+.color_text{
+    color: var(--primary-color);
 }

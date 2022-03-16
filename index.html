@@ -11,6 +11,7 @@
     <title>Hello, world!</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header>
@@ -24,18 +25,18 @@
         <div class="container-fluid py-3">
             <img src="./img/avatar.svg" alt="" class="w-25 pt-2">
             <h1 class="display-4 text-uppercase ">start bootstrap</h1>
-            <hr class="my-2 d-inline-block"> </hr>
+            <hr class="my_hr my-2 d-inline-block"> </hr>
             <span class="px-1"><i class="fa fa-star" aria-hidden="true"></i></span>
-            <hr class="my-2 d-inline-block"> </hr>
+            <hr class="my_hr my-2 d-inline-block"> </hr>
             <p class="text-uppercase">graphic artist - web designer - illustrator</p>
         </div>
     </div>
     <main>
         <div class="container text-center">
             <h2 class="display-6 text-uppercase pt-3">portfolio</h2>
-            <hr class="my-2 d-inline-block text-dark"> </hr>
+            <hr class="my_hr my-2 d-inline-block text-dark"> </hr>
             <span class="px-1"><i class="fa fa-star text-dark" aria-hidden="true"></i></span>
-            <hr class="my-2 d-inline-block text-dark"> </hr>
+            <hr class="my_hr my-2 d-inline-block text-dark"> </hr>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center mt-2">
                 <div class="col card border-0 p-2" >
                     <img src="./img/cabin.png" class="card-img-top rounded" alt="...">
@@ -57,41 +58,82 @@
                   </div>
             </div>
         </div>
-        <div class="about_section container-fluid p-4 text-light mt-4">
+        <div class="about_section container-fluid p-4 text-light mt-4 text-center">
             <div class="container">
                 <h2 class="text-center">ABOUT</h2>
-                <hr>
-                <div class="row">
-                    <div class="col-6">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum repellendus nisi sequi officiis veritatis corrupti. Eos dolor debitis ducimus dolore commodi, illo asperiores magnam error dicta quas labore. Enim.
+                <hr class="my_hr my-2 d-inline-block"> </hr>
+                <span class="px-1"><i class="fa fa-star" aria-hidden="true"></i></span>
+                <hr class="my_hr my-2 d-inline-block"> </hr>
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col p-4">
+                        Freelancer is a free botstrap theme created by Start Boostrap. The download iuncludes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
                     </div>
-                    <div class="col-6">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam velit facere tempore? Ipsam ipsum dicta voluptate repudiandae voluptatibus quasi debitis quidem et iusto accusantium nulla officiis aut, architecto magnam saepe.
+                    <div class="col p-4">
+                        Wheter you're a student looking to showcase your work,  a professional looking to share your projects, this template is the perfect starting point!
                     </div>
                 </div>
             </div>
         </div>    
 
-        <div class="container mt-4">
+        <div class="container my-5">
             <h2 class="text-center text-uppercase">Contact me</h2>
+            <div class="text-center">
+                <hr class="my_hr my-2 d-inline-block text-dark text-center"> </hr>
+                <span class="px-1"><i class="fa fa-star text-dark text-center" aria-hidden="true"></i></span>
+                <hr class="my_hr my-2 d-inline-block text-dark text-center"> </hr>
+            </div>            
             <ul class="list-unstyled">
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
+                <li>Name</li>
+                <hr>
+                <li>Email Address</li>
+                <hr>
+                <li>Phone Number</li>
+                <hr>
+                <li>Message</li>
             </ul>
-            <button class="btn border bg-success" >
-                    Notification <span class="badge bg-primary"></span>
-            </button>
+            <div class="mt-5">
+                <hr>
+                <button class="btn border send_btn" >
+                    Send 
+                </button>
+            </div>
+            
         </div>
     </main>
     <footer>
-        <div class="container text-light text-center p-4">
-            <div class="row row-cols-sm-1 row-cols-md-3">
-                <div class="col">location</div>
-                <div class="col">around the web</div>
-                <div class="col">about freelancer</div>
+        <div class="footer_top p-4">
+            <div class="container text-light text-center p-4">
+                <div class="row row-cols-sm-1 row-cols-md-3">
+                    <div class="col">
+                        <div class="text-uppercase py-1">location</div> 
+                        <div>2215 John Daniel Drive Clark, MO 54243 </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-uppercase py-1">Around the web</div> 
+                        <div class="text-center"> 
+                            <div class="brand_btn border border-white rounded-circle d-inline-block m-1">
+                                <i class="fab fa-facebook "></i>
+                            </div>
+                            <div class="brand_btn border border-white rounded-circle d-inline-block m-1">
+                                <i class="fab fa-google-plus-g"></i>
+                            </div>
+                            <div class="brand_btn border border-white rounded-circle d-inline-block m-1">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="brand_btn border border-white rounded-circle d-inline-block m-1">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-uppercase py-1">about freelancer</div> 
+                        <div>Freelance is a free to use, open source Bootstrap theme created by <span class="color_text">Start Bootstrap</span>.</div>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div class="footer_bottom text-center text-light p-4">
+            Copyright <i class="fas fa-copyright    "></i> Your Website 2019
         </div>
     </footer>
   </body>
